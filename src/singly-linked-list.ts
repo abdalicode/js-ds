@@ -2,7 +2,7 @@ class ListNode {
   constructor(public val, public next: ListNode | null = null) {}
 }
 
-class SinglyLinkedList {
+export class SinglyLinkedList {
   constructor(
     public head: ListNode | null = null,
     public tail: ListNode | null = null,
